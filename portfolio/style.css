@@ -1,0 +1,93 @@
+*{
+    background-color: rgb(21, 105, 77);
+}
+nav {
+    float: right;
+    margin: 3em;
+}
+
+nav ul {
+    margin: 0 3em;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    color: rgb(30, 105, 46);
+    transition-duration: 0.4s;
+}
+.text h1{
+    position: absolute;
+    color: aliceblue;
+    top: 2.7%;
+    left: 5%;
+}
+
+.center{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.center h1{
+    font-size: 60px;
+    color: aliceblue;
+}
+.center h2{
+    font-size: 30px;
+    color: aliceblue;
+}
+.parag{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.parag p{
+    font-size: 30px;
+    color: aliceblue;
+
+}
+.parag button{
+    background-color: bisque;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    color: rgb(12, 1, 1);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+  
+.button2:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+.image{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 12%;
+    height: 200px;
+}
